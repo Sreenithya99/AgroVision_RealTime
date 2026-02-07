@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+pymongo
+requests
+numpy
+pandas
+scikit-learn
+sentinelhub
