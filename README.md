@@ -4,13 +4,13 @@ Got you Nithya — here’s a **clean, professional, placement-ready README** yo
 ---
 
 ```markdown
-# 🌾 AgroVision RT – Real-Time Crop Yield Prediction Platform
+🌾 AgroVision RT – Real-Time Crop Yield Prediction Platform
 
 AgroVision RT is a full-stack AI-powered platform that predicts crop yield in real time by combining satellite vegetation indices, live weather data, and machine learning models. The system helps farmers and researchers assess crop health and forecast productivity based on geographic location.
 
 ---
 
-## 🚀 Features
+ Features
 
 - 📍 Interactive map-based location selection  
 - 🛰️ Real-time NDVI extraction from Sentinel-2 imagery  
@@ -23,7 +23,7 @@ AgroVision RT is a full-stack AI-powered platform that predicts crop yield in re
 
 ---
 
-## 🧠 How It Works
+ How It Works
 
 1. User selects a location on the map.
 2. NDVI is fetched from Sentinel-2 via Sentinel Hub Process API.
@@ -39,31 +39,31 @@ AgroVision RT is a full-stack AI-powered platform that predicts crop yield in re
 
 ---
 
-## 🛠 Tech Stack
+Tech Stack
 
-### Frontend
+ Frontend
 - React  
 - Material UI  
 - React-Leaflet  
 - Chart.js  
 
-### Backend
+Backend
 - FastAPI  
 - Python  
 
-### Machine Learning
+Machine Learning
 - scikit-learn  
 
-### APIs
+ APIs
 - Sentinel Hub (Process API)  
 - OpenWeatherMap  
 
-### Database
+Database
 - MongoDB  
 
 ---
 
-## 📂 Project Structure
+Project Structure
 
 ```
 
@@ -83,9 +83,9 @@ AgroVision_RT/
 
 ---
 
-## ⚙️ Setup Instructions
+ ⚙️ Setup Instructions
 
-### 1️⃣ Clone Repository
+ Clone Repository
 
 ```bash
 git clone <your-repo-url>
@@ -94,7 +94,7 @@ cd AgroVision_RT
 
 ---
 
-### 2️⃣ Create `.env` file (root directory)
+ Create `.env` file (root directory)
 
 ```
 SENTINEL_CLIENT_ID=your_client_id
@@ -107,7 +107,7 @@ MONGO_URI=your_mongodb_connection_string
 
 ---
 
-### 3️⃣ Backend Setup
+ Backend Setup
 
 ```bash
 cd backend
@@ -123,7 +123,7 @@ http://localhost:8000
 
 ---
 
-### 4️⃣ Frontend Setup
+Frontend Setup
 
 ```bash
 cd frontend
@@ -135,11 +135,9 @@ Frontend runs at:
 
 ```
 http://localhost:3000
-```
 
----
 
-## 📊 Machine Learning
+ Machine Learning
 
 * Model trained using datasets from Kaggle and data.gov.in
 * Algorithm: Regression-based scikit-learn model
@@ -150,7 +148,7 @@ Models can be regenerated using provided training scripts.
 
 ---
 
-## 📄 Output
+Output
 
 * NDVI Index
 * Weather metrics
@@ -162,15 +160,8 @@ Models can be regenerated using provided training scripts.
 
 ---
 
-## 👥 Team Roles (3 Members)
 
-* Frontend Developer – UI, maps, charts
-* Backend Developer – APIs, database, integrations
-* ML Engineer – model training, prediction logic
-
----
-
-## 🎯 Future Enhancements
+Future Enhancements
 
 * Multi-crop support
 * Mobile app version
@@ -180,34 +171,19 @@ Models can be regenerated using provided training scripts.
 
 ---
 
-## 📌 Note
+📌 Note
 
 This project is developed for academic and learning purposes and demonstrates real-time integration of satellite data, weather APIs, and machine learning for smart agriculture.
 
 ---
 
-## ❤️ Acknowledgments
+ Acknowledgments
 
 * Sentinel Hub
 * OpenWeatherMap
 * Kaggle
 * data.gov.in
 
----
 
 ### 🌟 If you like this project, give it a star!
 
-```
-
----
-
-If you want next, I can help with:
-
-✅ adding screenshots section  
-✅ architecture diagram  
-✅ resume bullet points  
-✅ project explanation for viva  
-✅ deployment section  
-
-Just tell me bro 💪
-```
